@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
-import ProfilePicture from "../assets/VikasYadavProfilePicture.jpg"
+import ProfilePicture from "../../public/VikasYadavProfilePicture.jpg";
 
 export function ThreeDCardDemo() {
     return (
