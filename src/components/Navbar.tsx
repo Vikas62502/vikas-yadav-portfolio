@@ -1,6 +1,6 @@
 // components/Navbar.js
 import { useState } from 'react';
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'; 
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -9,10 +9,10 @@ const Navbar = () => {
     };
 
     return (
-        <div className="w-full bg-gray-900 text-white">
+        <div className="w-full bg-gray-900 text-white border-b-2">
             <nav className="container mx-auto flex items-center justify-between py-4 px-6">
                 {/* Logo or Brand Name */}
-                <div className="text-2xl font-bold">MyPortfolio</div>
+                <div className="text-2xl font-bold">Vikas Yadav</div>
 
                 {/* Menu Button for Mobile */}
                 <button onClick={toggleMenu} className="md:hidden text-2xl focus:outline-none">
